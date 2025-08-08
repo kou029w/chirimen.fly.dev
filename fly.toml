@@ -8,7 +8,9 @@ primary_region = 'nrt'
 kill_signal = 'SIGINT'
 kill_timeout = '5s'
 
-[build]
+[env]
+NTFY_GLOBAL_TOPIC_LIMIT = '30000'
+NTFY_VISITOR_SUBSCRIPTION_LIMIT = '120'
 
 [http_service]
   internal_port = 80
