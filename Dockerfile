@@ -1,2 +1,2 @@
-FROM binwiederhier/ntfy@sha256:aa10e84da624f65be107f9317dbf6e212fa812e0ebf62e74d032d0762eccc930
+FROM binwiederhier/ntfy@sha256:115357a63dd35e3d08ad03c93ade7d7eef63761726572b809da13f2999f1958f
 CMD ["serve"]
